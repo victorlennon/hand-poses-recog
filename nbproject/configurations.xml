@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de cabeçalho"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de código-fonte"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de recurso"
+                   projectFiles="true">
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra0.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra1.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra2.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra3.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra4.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra5.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra6.jpg</itemPath>
+      <itemPath>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection/amostra7.jpg</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de testes"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../EngComp/2011.2/Processamento Digital de Imagens/openCV_HandDetection</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>C:/opencv242/build/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>C:/opencv242/build_mingw/lib</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_core242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_highgui242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_imgproc242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_features2d242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_nonfree242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_video242.dll.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>C:/opencv242/build/include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_highgui242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_imgproc242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_core242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_video242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_features2d242.dll.a</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv242/build_mingw/lib/libopencv_nonfree242.dll.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
